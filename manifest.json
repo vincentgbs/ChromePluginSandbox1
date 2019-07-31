@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Basic Example Plugin",
+  "description": "This extension popup when clicked",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "exampleIcon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
